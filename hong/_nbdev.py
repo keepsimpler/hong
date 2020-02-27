@@ -2,9 +2,16 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"cascade": "00_graph.ipynb",
+         "after_DAG": "00_graph.ipynb",
+         "xception_block": "01_complexnet.ipynb",
+         "complex_net": "01_complexnet.ipynb",
+         "complexnet_1": "01_complexnet.ipynb",
+         "complex_stage": "01_complexnet.ipynb",
+         "complexnet_2": "01_complexnet.ipynb"}
 
-modules = ["complexnet.py"]
+modules = ["graph.py",
+           "complexnet.py"]
 
 doc_url = "https://keepsimpler.github.io/hong/"
 
